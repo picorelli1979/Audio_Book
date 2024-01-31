@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Audio Book</title>
+    <link rel="stylesheet" href="../CSS/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+</head>
+<body>
+
+    <div class="Container_App">
+        
+        <header>
+            <h1>MEU BOOK DE MÚSICAS</h1>
+        </header>
+
+        <div class="Guitarra_img">
+            <img src="../IMG/5a35af16e1d063239b921f5d43b7b2bc.jpg" alt="">
+        </div>
+
+
+        <div class="Info_Faixa">   
+            <p  id="capitulo">CAPITULO 1</p>
+            <p  id="nome_autor">Ases Indomaveis</p>
+        </div>
+
+        <audio id="audio_cap" src="../AUDIO/1.mp3"></audio>
+
+        <div class="Container_Botoes">
+        
+            <button type="button"  id="anterior"    class="bi bi-skip-backward-circle-fill"></button>
+            <button type="button"  id="play_pause"  class="bi bi-play-circle-fill"></button>
+            <button type="button"  id="proxima"     class="bi bi-fast-forward-circle-fill"></button>
+
+        </div>
+    
+    </div>
+
+    <script src="../JS/app.js"></script>
+
+    
+</body>
+</html>

@@ -1,0 +1,50 @@
+
+body{
+   background-color: gray;
+}
+
+
+header{
+    text-align: center;
+    font-size: 30px;
+    font-style: italic;
+}
+
+.Guitarra_img { 
+   display: flex; 
+   align-items: center; 
+   justify-content: center;
+
+}
+
+.Guitarra_img img { 
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+}
+
+#capitulo{
+  text-align: center;
+  font-size:40px
+
+}
+
+#nome_autor{
+   font-size: 25px;
+   text-align: center;
+
+}
+
+.Container_Botoes{
+    display: flex;
+    justify-content: center;
+}
+
+button{
+   width: 150px;
+   height: 50px;
+   border-radius:10px;
+   margin:10px;
+   font-size: 30px;
+}
+ 
